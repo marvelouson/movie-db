@@ -1,0 +1,25 @@
+button#search {
+    background-image: url("https://i.ibb.co/86C7KCj/output-onlinepngtools.png");
+    width: 50px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+button:focus {
+    outline: none;
+}
+
+input[type="search"] {
+    box-shadow: none;
+    border: 0;
+    border-bottom: 2px solid #262933;
+    outline: none;
+    background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="search"]:hover,
+input[type="search"]:focus {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(251,176,59,1) 50%, rgba(181,128,53,1) 85%, rgba(38,41,51,1) 100%);
+}
